@@ -2,10 +2,12 @@
     --main-purple: rgb(128, 0, 128);
     --off-white: rgb(241, 241, 241);
     --main-fonts: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* color variables, with fallback fonts for main font variable */
 }
 
 *{
     font-family: "DM Sans", var(--main-fonts);
+    /* set DM Sans as the default font for all elements, with fallbacks to the main fonts variable */
 }
 
 .sekuya-regular {
