@@ -19,8 +19,8 @@
 
 .dm-sans-regular {
   font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
+  /*font-optical-sizing: auto;*/
+  font-weight: 100;
   font-style: normal;
 }
 
@@ -74,14 +74,14 @@ p {
 }
 h1 {
         color: #ffffff;
-        background-color: color(rec2020 1 0 0);
+        background-color: color(display-p3 1 0 0);
         font-family: "Sekuya", var(--main-fonts);
         text-align: center;
         text-decoration: wavy underline rgb(255, 255, 255);
         
         font-size: 8vw;
         display: block;
-        height: 26;
+        height: 26vw;
         position: sticky;
         top: 10px;
 
@@ -120,7 +120,7 @@ h3 {
 .topic1content {
         display: grid;
         justify-content:center;
-        grid-auto-columns: 3;
+        grid-auto-columns: 500px;
         /*grid-template-columns: 300px 300px;*/
         row-gap: 3px;
         /*background-color: rgba(255, 218, 235, 0);*/
