@@ -1,0 +1,155 @@
+:root{
+    --main-purple: rgb(128, 0, 128);
+    --off-white: rgb(241, 241, 241);
+    --main-fonts: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+*{
+    font-family: "DM Sans", var(--main-fonts);
+}
+
+.sekuya-regular {
+  font-family: "Sekuya", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-sans-regular {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body {
+    background-color: var(--off-white);
+}
+
+button:hover{
+        background-color: color-mix(in srgb, red, white 50%);
+        color: color-mix(purple);
+}
+button{
+        color: var(--main-purple);
+        background-color: green;
+}
+
+p {
+        color: rgb(0, 0, 0);
+
+        border-style: solid;
+        border-color: black;
+        border-width: .2mm;
+        border-radius: 3px;
+
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        display: inline-block;
+
+        font-family: "DM Sans", var(--main-fonts);
+}
+h1 {
+        color: #ffffff;
+        background-color: color(rec2020 1 0 0);
+        font-family: "Sekuya", var(--main-fonts);
+        text-align: center;
+        text-decoration: wavy underline rgb(255, 255, 255);
+        font-size: 50px;
+        display: block;
+
+        position: sticky;
+        top: 10px;
+
+        
+}
+h2 {
+        color: rgb(255, 255, 255);
+        font-family: "Sekuya", var(--main-fonts);
+        background-color: color-mix(in srgb, rgb(76, 0, 255), white 30%);
+        text-align: left;
+        margin: 0px 280px 0px 0px;
+        padding: 0px 0px 0px 10px;
+
+        
+}
+h3 {
+        color: white;
+
+        font-family: "DM Sans", var(--main-fonts);
+        margin: 0px 200px 0px 0px;
+        padding: 10px 0px 0px 0px;
+}
+
+.container {
+        display: flex;
+        background-color: rgba(41, 255, 216, 0.0);
+        flex-direction: row;
+        justify-content: center; 
+        margin: auto;
+}
+
+.topic1content {
+        display: grid;
+        justify-content:center;
+        grid-auto-columns: 3;
+        /*grid-template-columns: 300px 300px;*/
+        row-gap: 3px;
+        background-color: rgb(255, 218, 235);
+        margin: 10px;
+        padding: 10px;
+}
+
+footer{
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        text-align: right;
+
+}
+
+.dropdown{
+        font-family: "DM Sans", var(--main-fonts);
+        
+}
+
+#fname{
+        font-family: "DM Sans", var(--main-fonts);
+}
+
+a[href="#top"]{
+        font-size:smaller;
+        text-align: right;
+        margin-right: 10px;
+}
+
+p:hover{
+    /* Color paragraphs light gray when hovered over */
+    background-color: rgb(219, 219, 219);
+}
+
+ul > li > ul > li{
+    /* Make nested unordered lists have a different background color */
+    
+    color:rgba(0, 0, 0, .75);
+}
+
+li ol{
+    color:rgb(0, 0, 0)
+}
+
+li + li{
+    text-decoration: none;
+    color:rgba(0, 0, 0, .50);
+}
+
+h1 ~ *{
+    background-color: rgb(25, 0, 255);
+}
