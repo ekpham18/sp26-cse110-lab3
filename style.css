@@ -68,6 +68,7 @@ p {
 
         font-family: "DM Sans", var(--main-fonts);
 
+        /* Nested styling for hovered paragraph text*/
         &:hover{
             background-color: hsl(58, 100%, 78%);
         }
@@ -109,6 +110,7 @@ h3 {
 }
 
 .container {
+        /*Flex box for introductory text*/
         display: flex;
         background-color: rgba(41, 255, 216, 0.0);
         flex-direction: row;
@@ -129,6 +131,7 @@ h3 {
 }
 
 footer{
+        /* Copyright fixed to bottom right*/
         position: fixed;
         bottom: 10px;
         right: 10px;
