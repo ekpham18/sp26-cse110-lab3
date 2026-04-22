@@ -26,3 +26,6 @@ John, James, Ethan, Jevan
 - Jevan wants to make a solo song for the album
 - James is going on vacation soon, wants to finish his parts early
 - Everyone agreed on weekly creative sessions on Thursday nights (7:00 pm?)
+## Topics for next meeting
+- Finalize theme (we got sidetracked)
+- Create song teams
